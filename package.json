@@ -122,7 +122,7 @@ docker ps(to check)
 docker node ls (it will show manager and worker)
 docker pull ammarqais28/itiss
 docker images
-docker service create --name  myapp -p 80:80 ammarqais28/itiss
+docker service create --name  myapp -p 80:80 ammarqais28/itiss  or ngnix:alpine
 docker service ls
 docker service ps myapp(to check service)
 docker service scale myapp=3
